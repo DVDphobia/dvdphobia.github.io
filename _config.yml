@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "sunrise" #"default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "PsCustom Object - Hitchikers GUID(e) to Automation"
+title                    : "DVDphobia - technology and coding "
 title_separator          : "-"
 name                     : "DVDphobia"
-description              : "Hitchikers GUID(e) to Automation"
+description              : "technology and coding"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -29,7 +29,7 @@ words_per_minute         : 200
 comments:
   provider               : "false" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : PsCustomObject # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : DVDphobia # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -73,14 +73,14 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "cg39OpL2vJMnNfDE_PUfZyiKFhqAT5w7GMzz7uj6ZKQ"
-bing_site_verification   : "654FD847B6ABBD3A0AA4DF379425FCE2"
+google_site_verification : #"cg39OpL2vJMnNfDE_PUfZyiKFhqAT5w7GMzz7uj6ZKQ"
+bing_site_verification   : #"654FD847B6ABBD3A0AA4DF379425FCE2"
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "PsCustomObject"
+  username               : #"PsCustomObject"
 facebook:
   username               :
   app_id                 :
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "DVDphobia"
   avatar           : #"/assets/images/pscustomobject.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "i like doing research and coding."
+  bio              : "I like doing research and coding."
   location         : "PID 0"
   email            : #"PsCustomObject@outlook.com"
   links:
