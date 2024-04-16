@@ -1,7 +1,12 @@
 <meta charset="utf-8">
 
 {% include seo.html %}
+<<<<<<< HEAD
+=======
 {% include _includes/analytics-providers/google-gtag.html %}
+>>>>>>> 0212b02ce9abacc0a0210e81d26a413ab90f92f0
+
+
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
@@ -10,6 +15,16 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.analytics.google.tracking_id }}');
 </script>
 
 <!-- For all browsers -->
